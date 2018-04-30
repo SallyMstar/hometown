@@ -18,6 +18,7 @@ h1, h2, h3, h4, h5 {
 
 header, nav, footer, section, article, div {
   box-sizing: border-box;
+  margin: auto;
   max-width: 100%;
 }
 
@@ -156,6 +157,7 @@ main {
 .hero {
   width: 480px;
   max-width: 100%;
+  margin: auto;
   position: relative;
   background-image: url("./images/dog.jpg");
   background-size: cover;
@@ -165,6 +167,7 @@ main {
 .hero article {
   box-sizing: border-box;
   max-width: 100%;
+  margin: auto;
   background-color: #000;
   background-color: rgba(0, 0, 0, 0.7);
   position: relative;
@@ -185,6 +188,7 @@ main {
 .top-news {
   width: 320px;
   max-width: 100%;
+  margin: auto;
   height: 300px;
   border-bottom: 1px solid #E0E0E0;
   padding: 1em;
@@ -201,6 +205,8 @@ main {
   border-bottom: 1px solid #E0E0E0;
   padding: 1em 0;
   line-height: 19.2px;
+  max-width: 100%;
+  margin: auto;
 }
 
 .top-news__item:before {
@@ -231,11 +237,13 @@ main {
 .scores {
   width: 480px;
   max-width: 100%;
+  margin: auto;
   padding-top: 1em;
 }
 
 .scores__table {
   width: 100%;
+  margin: auto;
   border-collapse: collapse;
 }
 
@@ -286,6 +294,7 @@ main {
 
 .weather__location {
   display: block;
+  margin: auto;
   font-weight: 300;
   font-size: 1.5em;
 }
@@ -297,11 +306,13 @@ main {
 
 .weather__today {
   width: 60%;
+  margin: auto;
   vertical-align: middle;
 }
 
 .weather__today__image {
   vertical-align: middle
+  margin: auto;
 }
 
 .weather__today__temp {
@@ -311,6 +322,7 @@ main {
 .weather__today__deg {
   font-size: 2em;
   display: inline;
+  margin: auto;
 }
 
 .weather__next__item {
