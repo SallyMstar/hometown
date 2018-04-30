@@ -168,10 +168,9 @@ main {
   box-sizing: border-box;
   max-width: 100%;
   margin: auto;
-  vertical-align: bottom;
   background-color: #000;
   background-color: rgba(0, 0, 0, 0.7);
-  position: relative;
+  position: absolute;
   bottom: 0;
   height: 40%;
   width: 100%;
