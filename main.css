@@ -157,7 +157,6 @@ main {
 .hero {
   width: 480px;
   max-width: 100%;
-  margin: auto;
   position: relative;
   background-image: url("./images/dog.jpg");
   background-size: cover;
@@ -167,7 +166,6 @@ main {
 .hero article {
   box-sizing: border-box;
   max-width: 100%;
-  margin: auto;
   background-color: #000;
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
