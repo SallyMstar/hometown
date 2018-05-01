@@ -137,13 +137,6 @@ img {
 main {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/*
- *
- * Content
  *
  */
 
@@ -168,7 +161,7 @@ main {
   max-width: 100%;
   background-color: #000;
   background-color: rgba(0, 0, 0, 0.7);
-  position: relative;
+  position: absolute;
   bottom: 0;
   height: 40%;
   width: 100%;
@@ -177,6 +170,13 @@ main {
 }
 
 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+ *
+ * Content
 /*
  *
  * Top News
@@ -282,8 +282,7 @@ main {
  */
 
 .weather {
-  width: 320px;
-  max-width: 100%;
+  width: 100%;
   margin: auto;
   padding: 1em;
 }
