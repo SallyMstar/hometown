@@ -149,7 +149,7 @@ main {
 
 .hero {
   width: 100%;
-  position: relative;
+  position: absolute;
   background-image: url("./images/dog.jpg");
   background-size: cover;
   background-color: #000;
