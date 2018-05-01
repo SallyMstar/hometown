@@ -185,8 +185,7 @@ main {
  */
 
 .top-news {
-  width: 320px;
-  max-width: 100%;
+  width: 100%;
   margin: auto;
   height: 300px;
   border-bottom: 1px solid #E0E0E0;
@@ -234,8 +233,7 @@ main {
  */
 
 .scores {
-  width: 480px;
-  max-width: 100%;
+  width: 100%;
   margin: auto;
   padding-top: 1em;
 }
