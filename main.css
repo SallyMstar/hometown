@@ -160,6 +160,7 @@ main {
   position: relative;
   background-image: url("./images/dog.jpg");
   background-size: cover;
+  background-color: #000;
   height: 300px;
 }
 
