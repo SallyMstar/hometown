@@ -28,6 +28,11 @@ ul {
   margin: 0;
 }
 
+a {
+     min-height: 58px;
+     min-width: 58px;
+}
+
 img {
      max-width: 100%;
 }
