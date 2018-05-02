@@ -217,12 +217,15 @@ main {
 
 .top-news__item a {
   text-decoration: none;
+  min-height: 58px;
+  min-width: 58px;
   color: #666;
 }
 
 .top-news__item a:hover,
 .top-news__item a:active {
   text-decoration: underline;
+
 }
 
 
@@ -365,6 +368,8 @@ main {
 .snippet__title a {
   text-decoration: none;
   color: #666;
+  min-height: 58px;
+  min-width: 58px;
 }
 
 .snippet__title a:hover,
@@ -393,4 +398,6 @@ footer li {
 footer a {
   text-decoration: none;
   color: #333;
+  min-height: 58px;
+  min-width: 58px;
 }
