@@ -61,7 +61,7 @@ img {
 }
 
 .header__inner {
-  width: 800px;
+  width: 100%;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -91,7 +91,7 @@ img {
  */
 
 .nav {
-  width: 800px;
+  width: 100%;
   max-width: 100%;
   min-width: 58px;
   min-height: 58px;
@@ -301,7 +301,7 @@ main {
 }
 
 .weather__today {
-  width: 60%;
+  width: 100%;
   margin: auto;
   vertical-align: middle;
 }
