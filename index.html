@@ -7,6 +7,45 @@
     <title>Brighton Times</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <style type="text/css">
+         @media screen and (min-width: 800px) {
+              .content {
+                   display: grid;
+                   grid-template-columns: repeat(5,1fr);
+                   grid-column-gap: 5px;
+                   position: inherit;
+              }
+              .hero {
+                   grid-column-start: 1;
+                   grid-column-end: 4;
+                   grid-row-start: 1;
+                   grid-row-end: 3;
+                   order: 1;
+              }
+              .top-news {
+                   grid-column-start: 1;
+                   grid-column-end: 3;
+                   order: 3;
+              }
+              .scores {
+                   padding-top: 0px;
+                   grid-column-start: 3;
+                   grid-column-end: 6;
+                   order: 4;
+              }
+              .weather {
+                   padding: 0px;
+                   grid-column-start: 4;
+                   grid-column-end: 6;
+                   order: 2;
+              }
+              .recent-news {
+                   grid-column-start: 1;
+                   grid-column-end: 6;
+                   order: 5;
+              }
+         }
+    </style>
   </head>
   <body>
 
