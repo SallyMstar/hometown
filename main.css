@@ -226,8 +226,6 @@ main {
 
 .top-news__item a {
   text-decoration: none;
-  min-height: 58px;
-  min-width: 58px;
   color: #666;
 }
 
