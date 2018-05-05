@@ -67,6 +67,7 @@ img {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
   min-height: 56px;
   transition: min-height 0.3s;
+  display: inline-block;
 }
 
 .header__inner {
@@ -256,12 +257,15 @@ main {
 
 .scores__table th,
 .scores__table td {
-  padding: 1em;
+     font-size: 12px;
+     padding: 1em;
 }
 
 .scores__table th {
   color: #fff;
   font-weight: 300;
+  font-size: 16px;
+  font-stretch: semi-expanded;
   background-color: #78909C;
 }
 
