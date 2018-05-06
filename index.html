@@ -9,6 +9,11 @@
     <link rel="stylesheet" type="text/css" href="main.css">
     <style type="text/css">
          @media screen and (min-width: 800px) and (max-width: 999px){
+              th, td {
+                   font-size: 16px;
+                   font-stretch: semi-expanded;
+                   padding: 1em;
+              }
               .content {
                    display: grid;
                    grid-template-columns: repeat(5,1fr);
@@ -27,16 +32,27 @@
                    order: 2;
                    padding: 0em;
               }
+                        .news__title {
+                             font-size: 20px;
+                             font-style: oblique;
+                             border-top: 1px solid #E0E0E0;
+                        }
+                        .top-news__item {
+                             padding: 5px;
+                             font-size: 14px;
+                        }
               .scores {
                    grid-column-start: 3;
                    grid-column-end: 6;
                    order: 4;
                    padding-top: 0px;
-                   font-size: 14px;
+                   font-size: 16px;
+                   height: 100%;
+                   margin: auto;
               }
               .weather {
                    padding: 0px;
-                   margin: 0px 0px 0px 3px;
+                   width: 80%;
                    grid-column-start: 1;
                    grid-column-end: 3;
                    order: 3;
@@ -56,6 +72,14 @@
                    grid-template-columns: 1fr;
                    grid-template-rows: auto;
               }
+              a {
+                   min-height: 40px;
+              }
+              th, td {
+                   font-size: 16px;
+                   font-stretch: semi-expanded;
+                   padding: 0.7em;
+              }
                .topper {
                     grid-area: top;
               }
@@ -63,12 +87,9 @@
                    grid-area: middle;
                    display: grid;
                    grid-template-columns: repeat(7,1fr);
-                   /* grid-rows: 100px; */
                    grid-column-gap: 5px;
                    grid-row-gap: 5px;
                    position: inherit;
-                   grid-row-start: 2;
-                   grid-row-end: 3;
               }
               .hero {
                    grid-column-start: 1;
@@ -77,35 +98,34 @@
                    grid-row-end: 5;
                    height: 500px;
                    order: -1;
+                   margin-top: 0px;
               }
               .top-news {
                    grid-column-start: 5;
                    grid-column-end: 7;
                    padding: 0em;
-                   background-color: #fffff0;
+                   background-color: #fffffc;
+                   margin: auto;
               }
                         .news__title {
                              font-size: 20px;
                              font-style: oblique;
                         }
                         .top-news__item {
-                             padding: 5px;
+                             padding: 0.5em;
+                             margin: auto;
                              font-size: 14px;
                         }
               .scores {
                    grid-column-start: 5;
                    grid-column-end: 8;
-                   grid-row-start: 4;
-                   grid-row-end: 6;
+                   grid-row-start: 3;
+                   grid-row-end: 5;
                    order: 2;
                    padding-top: 0px;
               }
-               th, td {
-                    font-size: 14px;
-                    font-stretch: semi-expanded;
-                    padding: 0.7em;
-              }
               .weather {
+                   width: 95%;
                    padding: 0px;
                    margin-top: 0px;
                    grid-column-start: 7;
@@ -115,8 +135,9 @@
               .recent-news {
                    grid-column-start: 1;
                    grid-column-end: 8;
-                   grid-row-start: 6;
-                   grid-row-end: 8;
+                   grid-row-start: 4;
+                   grid-row-end: 7;
+                   padding-top: 70px;
                    order: 5;
               }
               .footSection {
