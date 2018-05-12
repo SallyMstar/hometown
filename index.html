@@ -10,6 +10,12 @@
          <link rel="stylesheet" type="text/css" href="main.css">
     <style type="text/css">
          @media screen and (max-width: 799px) {
+              main {
+                   z-index: 2;
+              }
+              #drawer {
+                   z-index: 1;
+              }
               .header {
                 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
                 min-height: 56px;
@@ -40,6 +46,7 @@
                position: absolute;
                margin-top: 18px;
                vertical-align: bottom;
+               z-index: 6;
                }
                .nav__item {
                     width: 250px;
@@ -52,6 +59,7 @@
                     background-color: #fffffc;
                     font-size: 18px;
                     font-weight: bold;
+                    z-index: 5;
                }
                .open {
                     position: absolute;
