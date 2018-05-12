@@ -7,7 +7,7 @@ body, html {
 
 body {
   font-family: Roboto;
-  font-size: 12px;
+  font-size: 14px;
   color: #424242;
 }
 
@@ -120,12 +120,13 @@ i {
   box-sizing: border-box;
   display: inline-block;
   width: 24%;
-  min-width: 58px;
-  min-height: 58px;
+  min-width: 48px;
+  min-height: 48px;
   text-align: center;
   line-height: 24px;
   padding: 24px;
   text-transform: uppercase;
+  font-size: 2em;
 }
 
 .nav a {
