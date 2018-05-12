@@ -91,6 +91,10 @@ img {
 }
 
 
+i {
+ display: none;
+ }
+
 /*
  *
  * Top Level Navigation
